@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lorem, ipsum dolor sit amet consectetur adipisicing elit.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/assets/fontawesome/all.min.css">
+    <link rel="stylesheet" href="dist/assets/css/bundle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page" class="site">
+
+        <div id="overlay"></div>
+
+        <a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+
+        <div id="masthead" class="site-header">
+
+            <div class="wrapper">
+
+                <div class="logo-container">
+
+                    <div class="site-branding">
+                        <!-- <a href="index.html" class="brand-logo">
+                            <img src="dist/assets/images/my_logo.png" alt="wtvnewzy">
+                        </a> -->
+
+                        <div class="logo-text">
+                            <h1 class="site-title">
+                                <a href="index.html">WTVNewzy</a>
+                            </h1>
+                            <p class="site-title">
+                                <a href="index.html">WTVNewzy</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div><!-- .logo-container -->
+
+                <div class="nav-container">
+
+                    <div class="menu-toggler">
+                        <button class="menu-toggler-button">
+                            <i class="fas fa-bars menu-toggler-icon" aria-label="Toggle Menu"></i>
+                        </button>
+                    </div><!-- .menu-toggler -->
+
+                    <nav id="navigation" class="site-navigation" role="navigation" aria-label="Primary Menu">
+
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="page.html">About us</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">
+                                    Portfolio
+                                    <button class="menu-button">
+                                        <span class="screen-reader-text menu-button-show">Show Level 1 submenu</span>
+                                        <span aria-hidden="true" class="screen-reader-text menu-button-hide">Hide Level 1 submenu</span>
+                                        <i class="fas fa-angle-down menu-toggle-icon" aria-hidden="true"></i>
+                                    </button>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="#">Portfolio sub item 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Portfolio sub item 2</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#">
+                                            Portfolio sub item 3
+                                            <button class="menu-button">
+                                                <span class="screen-reader-text menu-button-show">Show Level 1 submenu</span>
+                                                <span aria-hidden="true" class="screen-reader-text menu-button-hide">Hide Level 1 submenu</span>
+                                                <i class="fas fa-angle-right menu-toggle-icon" aria-hidden="true"></i>
+                                            </button>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="#">Level 3 Item</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Portfolio sub item 4</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Contact us</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="blog.html">Blog</a>
+                            </li>
+                        </ul><!-- .menu -->
+                        
+                    </nav><!-- #site-navigation -->
+
+                </div><!-- .nav-container -->
+
+            </div>
+
+        </div><!-- #masthead -->
+
+        <div class="mobile-menu" role="navigation">
+
+            <div class="close-menu-btn">
+                <button class="button-close">
+                    <span>
+                        <i class="fas fa-times-circle close-icon" id="close" aria-hidden="true"></i>Close Menu
+                        <span class="screen-reader-text" aria-hidden="true"></span>
+                    </span>
+                </button>
+            </div>
+    
+            <form action="index.html" class="main-search-form">
+                <input type="search" name="s" placeholder="Seach&hellip;" class="form-control">
+            </form>
+    
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="page.html">About us</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                    <a href="#">
+                        Portfolio
+                        <button class="menu-button">
+                            <span class="screen-reader-text menu-button-show">Show Level 1 submenu</span>
+                            <span aria-hidden="true" class="screen-reader-text menu-button-hide">Hide Level 1 submenu</span>
+                            <i class="fas fa-angle-down menu-toggle-icon" aria-hidden="true"></i>
+                        </button>
+                    </a>
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="#">Portfolio sub item 1</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Portfolio sub item 2</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">
+                                Portfolio sub item 3
+                                <button class="menu-button">
+                                    <span class="screen-reader-text menu-button-show">Show Level 1 submenu</span>
+                                    <span aria-hidden="true" class="screen-reader-text menu-button-hide">Hide Level 1 submenu</span>
+                                    <i class="fas fa-angle-right menu-toggle-icon" aria-hidden="true"></i>
+                                </button>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="#">Level 3 Item</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Portfolio sub item 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Contact us</a>
+                </li>
+                <li class="menu-item">
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul><!-- .menu -->
+    
+        </div><!-- .mobile-menu -->
+
+        <div id="content" class="site-content">
+
+            <div class="home-banner">
+
+                <div class="wrapper">
+
+                    <div class="home-banner-content">
+                        <div class="img-container">
+                            <img src="dist/assets/images/nature-1000x550.jpg" alt="">
+                            <div class="img-overlay"></div>
+                        </div>
+                        <div class="text-container">
+                            <div class="category">
+                                <i class="fas fa-folder-open"></i>
+                                <span><a href="archive.html">category 1</a></span>
+                                <span><a href="archive.html">category 2</a></span>
+                            </div>
+                            <h2 class="entry-title">
+                                <a href="single.html">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </a>
+                            </h2>
+                            <div class="entry-meta">
+                                <span>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">September 22, 2020</a>
+                                    <span class="sep">|</span>
+                                    <a href="#">The Author</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home-banner-content">
+                        <div class="img-container">
+                            <img src="dist/assets/images/image-desk-coffee-cup.jpg" alt="">
+                            <div class="img-overlay"></div>
+                        </div>
+                        <div class="text-container">
+                            <div class="category">
+                                <i class="fas fa-folder-open"></i>
+                                <span><a href="archive.html">category 1</a></span>
+                                <span><a href="archive.html">category 2</a></span>
+                            </div>
+                            <h2 class="entry-title">
+                                <a href="single.html">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </a>
+                            </h2>
+                            <div class="entry-meta">
+                                <span>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">September 22, 2020</a>
+                                    <span class="sep">|</span>
+                                    <a href="#">The Author</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home-banner-content">
+                        <div class="img-container">
+                            <img src="dist/assets/images/nature-1000x550.jpg" alt="">
+                            <div class="img-overlay"></div>
+                        </div>
+                        <div class="text-container">
+                            <div class="category">
+                                <i class="fas fa-folder-open"></i>
+                                <span><a href="archive.html">category 1</a></span>
+                                <span><a href="archive.html">category 2</a></span>
+                            </div>
+                            <h2 class="entry-title">
+                                <a href="single.html">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </a>
+                            </h2>
+                            <div class="entry-meta">
+                                <span>
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <a href="#">September 22, 2020</a>
+                                    <span class="sep">|</span>
+                                    <a href="#">The Author</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!-- .home-banner -->
+
+            <div class="banner-ad-container">
+                <div class="wrapper">
+                    <a href="#"><img src="dist/assets/images/sample-ads-blank.jpg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="wrapper">
+
+                <div class="content-wrapper">
+
+                    <main id="primary" class="site-main">
+
+                        <div class="frontpage-content">
+
+                            <div class="widget">
+                                <h2 class="widget-title">
+                                    <span>Recently Uploaded</span>
+                                </h2>
+                            </div>
+
+                            <article id="postID" class="post-class">
+
+                                <div class="post-container">
+                                    <div class="img-container">
+                                        <a href="single.html">
+                                            <img src="dist/assets/images/nature-1000x550.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-container">
+                                        <div class="category">
+                                            <i class="fas fa-folder-open"></i>
+                                            <span><a href="#">category 1</a>, </span>
+                                            <span><a href="#">category 2</a></span>
+                                        </div>
+                                        <h3 class="entry-title">
+                                            <a href="single.html">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            </a>
+                                        </h3>
+                                        <div class="entry-meta">
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="#">September 22, 2020</a>
+                                                <span class="sep">|</span>
+                                                <a href="#">The Author</a>
+                                            </span>
+                                        </div>
+                                        <p class="entry-summary">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias beatae facere! Quas recusandae cumque facilis perspiciatis mollitia? Nulla voluptates quis debitis sequi, deleniti illum totam, eos ullam assumenda perferendis dolorem tenetur, vero repudiandae dolores a mollitia eius aut saepe?
+                                        </p>
+                                    </div>
+
+                                    <div class="footer-container">
+                                        <div class="tag-container">
+                                            <i class="fas fa-tags"></i>
+                                            <span><a href="#">Lorem, ipsum.</a>, </span>
+                                            <span><a href="#">Lorem.</a>, </span>
+                                            <span><a href="#">Lipsum dolor.</a></span>
+                                        </div>
+                                        <div class="social-icon-container">
+                                            <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+                                            <a href="#"><i class="fab fa-instagram instagram"></i></a>
+                                            <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="post-container">
+                                    <div class="img-container">
+                                        <a href="single.html">
+                                            <img src="dist/assets/images/image-desk-coffee-cup.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text-container">
+                                        <div class="category">
+                                            <i class="fas fa-folder-open"></i>
+                                            <span><a href="#">category 1</a>, </span>
+                                            <span><a href="#">category 2</a></span>
+                                        </div>
+                                        <h3 class="entry-title">
+                                            <a href="single.html">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            </a>
+                                        </h3>
+                                        <div class="entry-meta">
+                                            <span>
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <a href="#">September 22, 2020</a>
+                                                <span class="sep">|</span>
+                                                <a href="#">The Author</a>
+                                            </span>
+                                        </div>
+                                        <p class="entry-summary">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias beatae facere! Quas recusandae cumque facilis perspiciatis mollitia? Nulla voluptates quis debitis sequi, deleniti illum totam, eos ullam assumenda perferendis dolorem tenetur, vero repudiandae dolores a mollitia eius aut saepe?
+                                        </p>
+                                    </div>
+
+                                    <div class="footer-container">
+                                        <div class="tag-container">
+                                            <i class="fas fa-tags"></i>
+                                            <span><a href="#">Lorem, ipsum.</a>, </span>
+                                            <span><a href="#">Lorem.</a>, </span>
+                                            <span><a href="#">Lipsum dolor.</a></span>
+                                        </div>
+                                        <div class="social-icon-container">
+                                            <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+                                            <a href="#"><i class="fab fa-instagram instagram"></i></a>
+                                            <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </article><!-- #postID -->
+
+                        </div><!-- .home-content -->
+                        
+                    </main><!-- #primary -->
+
+                    <aside id="secondary" class="widget-area">
+
+                        <div class="widget">
+
+                            <h3 class="widget-title">
+                                <span>Recent Posts</span>
+                                <div class="line"></div>
+                            </h3>
+
+                            <ul>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur adipisicing consectetur elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum, sit amet consectetur adipisicing elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur consectetur elit.</a></li>
+                            </ul>
+
+                        </div><!-- .widget -->
+
+                        <div class="widget">
+
+                            <h3 class="widget-title">
+                                <span>Our Sponsors</span>
+                                <div class="line"></div>
+                            </h3>
+
+                            <div class="ad-container">
+                                <a href="#">
+                                    <img src="dist/assets/images/ad-300x600-blank.jpg" alt="">
+                                </a>
+                            </div>
+
+                        </div><!-- .widget -->
+
+                        <div class="widget">
+
+                            <h3 class="widget-title">
+                                <span>Recent Posts Numbered</span>
+                                <div class="line"></div>
+                            </h3>
+
+                            <ol>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur adipisicing consectetur elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum, sit amet consectetur adipisicing elit.</a></li>
+                                <li><a href="single.html">Lorem ipsum dolor, sit amet consectetur consectetur elit.</a></li>
+                            </ol>
+
+                        </div><!-- .widget -->
+                        
+                    </aside><!-- #secondary -->
+
+                </div><!-- .content-wrapper -->
+
+            </div>
+
+        </div><!-- #content -->
+
+        <footer id="colophon" class="site-footer">
+            <div class="wrapper">
+
+                <div class="footer-bottom">
+
+                    <div class="footer-bottom-left">
+                        <p class="copyright">
+                            Copyright &copy; 2020 WTVNewzy - All Rights Reserved
+                        </p>
+                    </div>
+
+                    <div class="footer-bottom-right">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Terms of Service</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </footer><!-- #colophon -->
+
+        <button id="scroll-to-top">
+            <i class="fas fa-fw fa-angle-up" aria-hidden="true"></i>
+            <span class="screen-reader-text" aria-hidden="true">Scroll to Top</span>
+        </button><!-- scroll-to-top -->
+
+    </div><!-- #page -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/assets/js/bundle.js"></script>
+</body>
+</html>
